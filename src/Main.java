@@ -56,8 +56,14 @@ public class Main {
             System.out.println("Ingrese la cédula del visitante:");
             String cedula = scanner.nextLine();
 
-            System.out.println("Ingrese la edad del visitante:");
-            int edad = scanner.nextInt();
+            int edad;
+            do {
+                System.out.println("Ingrese la edad del visitante:");
+                edad = scanner.nextInt();
+                if (edad < 0) {
+                    System.out.println("Error: La edad no puede ser un valor negativo. Inténtelo de nuevo.");
+                }
+            } while (edad < 0);
             scanner.nextLine(); // Limpiar el buffer de entrada
 
             // Crear un objeto Visitante con la información proporcionada y agregarlo a la lista de visitantes
