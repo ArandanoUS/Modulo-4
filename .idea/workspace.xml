@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5dcdd63-6b88-4ad0-b7b6-dbfff7bd04b9" name="Changes" comment="Agregado un While y un mensaje de error en caso de que el usuario introduzca una valor de edad negativo.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5dcdd63-6b88-4ad0-b7b6-dbfff7bd04b9" name="Changes" comment="Nombre del projecto cambiado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -33,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/crist/Documents/Projectos/untitled/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/crist/Documents/Projectos/untitled/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="untitled" />
+      <module name="Registro de Visitantes" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,7 +87,7 @@
       <workItem from="1709406501514" duration="217000" />
       <workItem from="1709406815022" duration="3267000" />
       <workItem from="1711674973717" duration="4591000" />
-      <workItem from="1711933019160" duration="685000" />
+      <workItem from="1711933019160" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="Agregado Archivo Main, rescrito y establecido los valores privados y publicos de de la Clase Visitante. Agregado el menu  principal del Main, agregado el menu de la lista de visitantes, agregado una función de busqueda por nombre o por cedula al menu de lista de visitantes. agregado los Try catchs para la edad y las opciónes de los menus.">
       <option name="closed" value="true" />
@@ -104,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711679841330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nombre del projecto cambiado">
+      <option name="closed" value="true" />
+      <created>1711936802983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711936802983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Nombre del projecto cambiado">
+      <option name="closed" value="true" />
+      <created>1711936814023</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711936814023</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregado Archivo Main, rescrito y establecido los valores privados y publicos de de la Clase Visitante. Agregado el menu  principal del Main, agregado el menu de la lista de visitantes, agregado una función de busqueda por nombre o por cedula al menu de lista de visitantes. agregado los Try catchs para la edad y las opciónes de los menus." />
     <MESSAGE value="Agregado un While y un mensaje de error en caso de que el usuario introduzca una valor de edad negativo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado un While y un mensaje de error en caso de que el usuario introduzca una valor de edad negativo." />
+    <MESSAGE value="Nombre del projecto cambiado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nombre del projecto cambiado" />
   </component>
 </project>
