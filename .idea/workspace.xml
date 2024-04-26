@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5dcdd63-6b88-4ad0-b7b6-dbfff7bd04b9" name="Changes" comment="Nombre del projecto cambiado" />
+    <list default="true" id="c5dcdd63-6b88-4ad0-b7b6-dbfff7bd04b9" name="Changes" comment="Archivo .idea actualizados">
+      <change afterPath="$PROJECT_DIR$/src/Registro/RegistroVisitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registro/Visita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Registro/Visitante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Registro/Visitante.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +24,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -36,10 +50,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "alter",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,6 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -88,6 +105,16 @@
       <workItem from="1709406815022" duration="3267000" />
       <workItem from="1711674973717" duration="4591000" />
       <workItem from="1711933019160" duration="1167000" />
+      <workItem from="1711937031394" duration="874000" />
+      <workItem from="1712696252838" duration="1576000" />
+      <workItem from="1713285508744" duration="3655000" />
+      <workItem from="1713307441447" duration="11000" />
+      <workItem from="1713320385031" duration="1760000" />
+      <workItem from="1713546780357" duration="3307000" />
+      <workItem from="1713562787717" duration="3807000" />
+      <workItem from="1713566691227" duration="2379000" />
+      <workItem from="1713995506002" duration="116000" />
+      <workItem from="1714156758700" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="Agregado Archivo Main, rescrito y establecido los valores privados y publicos de de la Clase Visitante. Agregado el menu  principal del Main, agregado el menu de la lista de visitantes, agregado una función de busqueda por nombre o por cedula al menu de lista de visitantes. agregado los Try catchs para la edad y las opciónes de los menus.">
       <option name="closed" value="true" />
@@ -121,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711936814023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Archivo .idea actualizados">
+      <option name="closed" value="true" />
+      <created>1711937162297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711937162297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +167,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -141,7 +188,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregado Archivo Main, rescrito y establecido los valores privados y publicos de de la Clase Visitante. Agregado el menu  principal del Main, agregado el menu de la lista de visitantes, agregado una función de busqueda por nombre o por cedula al menu de lista de visitantes. agregado los Try catchs para la edad y las opciónes de los menus." />
     <MESSAGE value="Agregado un While y un mensaje de error en caso de que el usuario introduzca una valor de edad negativo." />
-    <MESSAGE value="Nombre del projecto cambiado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nombre del projecto cambiado" />
+    <MESSAGE value="Archivo unversionado actualizado" />
+    <MESSAGE value="Archivo .idea actualizados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo .idea actualizados" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
